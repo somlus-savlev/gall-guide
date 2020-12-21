@@ -9,7 +9,7 @@ This guide is for anyone with an intermediate knowledge of Hoon (Hoon School 101
 
 ### Backend Foundation (Gall 101)
 * [Workflow Setup](workflow.md)
-* [The 10 Arms of Gaal: App Structure](arms.md)
+* [The 10 Arms of Gall: App Structure](arms.md)
 * [App Lifecycle and State](lifecycle.md)
 * [Importing Code and Static Resources](ford.md)
 * [Talk to Ships: poke, watch and marks](poke.md)
@@ -40,7 +40,7 @@ Gall modules can, for example:
 - provide full-blown user experiences with frontend
 - run database resources that back multiple services
 
-Most of the Urbit apps know and love, like Chat and Publish, are Gall applications, but so are the "background" modules that coordinate your experience, like the `group` data store and logic.
+Most of the Urbit apps we all know and love, like Chat and Publish, are Gall applications. But so are the "background" modules that coordinate your experience, like the `group` data store and logic.
 
 Gall handles all messages going into your app, and routes all messages going out from your app to the correct destination.
 
@@ -69,7 +69,7 @@ Gall apps are for when you want a longer running service, more like a daemon in 
 ![Gall Diagram](gall_diagram.png)
 
 ## What Do I Need to Know?
-To write Gall programs, you need a decent understanding of Hoon. To write Gall programs that use Landscape, you need to know Javascript. For the JS part, we'll go over in a lot of detail, so that even if you haven't seen much React, you'll be able to follow along.
+To write Gall programs, you need a decent understanding of Hoon. To write Gall programs that use Landscape, you need to know Javascript. For the JS part, we'll go over it in a lot of detail, so that even if you haven't seen much React, you'll be able to follow along.
 
 ## Creating a Real Application
 Over the course of the "Backend Foundation" series, we will create the backend for a group chat admin app, `picky` that allows monitoring and management of users in all chats you are an owner or admin of. In each lesson, the exercises will build on each other to progressively create the application.
